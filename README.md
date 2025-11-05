@@ -1,7 +1,4 @@
-# Silver Sixpence Merkle Tree Generator
-
-A Merkle Tree is a privacy-preserving data structure that uses hash proofs to store and manage large datasets. 
-It uses these hash functions to construct layers of nodes that build a tree-like structure with several layers of decreasing size, until only a single node remains. This node is called the Merkle Root.
+d4ec2fca8dfa3efeca731fefd7e3572dd10d5764 only a single node remains. This node is called the Merkle Root.
 There is no industry standard on how to generate Merkle Trees, so many different customized versions may exist. 
 The *Silver Sixpence Merkle Tree Generator* uses its own approach, but can easily be modified on several parameters based on customer demand. 
 
@@ -90,13 +87,7 @@ Amoné first needs to build her Merkle Leaf, which is a hash her *account ID*, *
 *Client_Balances*: (Asset1=Balance | Asset2=Balance | Asset3=Balance ...)
 
 Example:
-```
-Customer_ID = “287e29b8-de5b-4924-8906-b216f2d48cd6”
-Audit_ID = "PORNOV22"
-Salt = "2A496ECE"
-Client_Balances = "BTC=6.83|ETH=1.26|XRP=88.95|USDC=2.32"
-```
-
+```d4ec2fca8dfa3efeca731fefd7e3572dd10d5764
 
 Amoné sees that the audit snapshot was taken at 2022/11/24 23:59 and verifies that her balances at that time was indeed as indicated on her profile page. She then concatenates all of this data together to form her Account Record:
 
